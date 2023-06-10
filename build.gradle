@@ -51,6 +51,7 @@ dependencies {
     modCompileOnly "com.github.BlueMap-Minecraft:BlueMapAPI:${project.bluemap_api_version}"
     modCompileOnly "maven.modrinth:expanded-storage:${project.expanded_storage_version}"
     modCompileOnly "us.dynmap:DynmapCoreAPI:${project.dynmap_api_version}"
+    modCompileOnly "maven.modrinth:squaremap:${project.squaremap_api_version}"
 }
 
 shadowJar {
